@@ -1,0 +1,19 @@
+.video-compare-container {
+  display: flex;
+  gap: 2rem;
+  margin-top: 1.5rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* Add some spacing to the episode-with-videos wrapper */
+.episode-with-videos {
+  margin-bottom: 1rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .video-compare-container {
+    gap: 1rem;
+  }
+}

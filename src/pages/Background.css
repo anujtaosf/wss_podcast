@@ -1,0 +1,187 @@
+.background-page {
+  min-height: 100vh;
+  background: #000;
+}
+
+/* ============================================
+   PAGE HERO (Background page)
+   ============================================ */
+
+.page-hero {
+  background: linear-gradient(135deg, #1C77C3, #6A4C93);
+  padding: 5rem 2rem 4rem 2rem;
+  text-align: center;
+  clip-path: polygon(0 0, 100% 0, 100% 95%, 0 100%);
+}
+
+.page-title {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: clamp(3rem, 8vw, 5rem);
+  color: #F7C531;
+  letter-spacing: 4px;
+  margin: 0;
+  text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* ============================================
+   HOST CARDS
+   ============================================ */
+
+.host-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 3rem;
+  margin-top: 2rem;
+}
+
+.host-card {
+  background: linear-gradient(135deg, #2a2a2a, #1a1a1a);
+  border: 3px solid #E6399B;
+  border-radius: 16px;
+  padding: 2.5rem;
+  text-align: center;
+  transition: all 0.4s ease;
+  cursor: pointer;
+}
+
+.host-card:hover {
+  transform: translateY(-12px) scale(1.03);
+  box-shadow:
+    0 0 20px #E6399B,
+    0 0 40px rgba(230, 57, 155, 0.4);
+}
+
+.host-img-placeholder {
+  width: 180px;
+  height: 180px;
+  margin: 0 auto 1.5rem;
+  background: linear-gradient(135deg, #6A4C93, #D62828);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  border: 4px solid #F7C531;
+  transition: all 0.3s ease;
+}
+
+.host-card:hover .host-img-placeholder {
+  transform: rotate(5deg) scale(1.05);
+  box-shadow: 0 0 30px #F7C531;
+}
+
+.host-img-placeholder img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.placeholder-icon {
+  font-size: 5rem;
+}
+
+.host-name {
+  font-family: 'Staatliches', sans-serif;
+  font-size: 2rem;
+  color: #8AFFEF;
+  margin: 1rem 0 0.5rem 0;
+  letter-spacing: 2px;
+}
+
+.host-bio {
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 1.1rem;
+  color: #FDF7E6;
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* ============================================
+   CREDITS SECTION
+   ============================================ */
+
+.credits {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 12px;
+  border: 2px solid #1C77C3;
+}
+
+.credits-section {
+  margin-bottom: 2.5rem;
+}
+
+.credits-section:last-child {
+  margin-bottom: 0;
+}
+
+.credits-heading {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.8rem;
+  color: #E6399B;
+  margin: 0 0 1rem 0;
+  letter-spacing: 2px;
+}
+
+.credits p {
+  font-family: 'Inter', sans-serif;
+  font-size: 1rem;
+  color: #ccc;
+  line-height: 1.8;
+  margin: 0.5rem 0;
+}
+
+.credits ul {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0;
+}
+
+.credits li {
+  font-family: 'Inter', sans-serif;
+  font-size: 1rem;
+  color: #FDF7E6;
+  line-height: 1.8;
+  padding-left: 1.5rem;
+  position: relative;
+  margin: 0.8rem 0;
+}
+
+.credits li::before {
+  content: '▸';
+  position: absolute;
+  left: 0;
+  color: #F7C531;
+  font-weight: bold;
+}
+
+.credits em {
+  color: #8AFFEF;
+  font-style: italic;
+}
+
+/* ============================================
+   RESPONSIVE DESIGN
+   ============================================ */
+
+@media (max-width: 768px) {
+  .page-hero {
+    padding: 3rem 1.5rem 2.5rem 1.5rem;
+  }
+
+  .host-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .host-img-placeholder {
+    width: 150px;
+    height: 150px;
+  }
+
+  .credits {
+    padding: 1.5rem;
+  }
+}

@@ -1,0 +1,111 @@
+.hero {
+  position: relative;
+  min-height: 70vh;
+  background: linear-gradient(135deg, #D62828, #6A4C93);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem 2rem;
+  overflow: hidden;
+  clip-path: polygon(0 0, 100% 0, 100% 95%, 0 100%);
+}
+
+.hero-title {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: clamp(3rem, 12vw, 8rem);
+  color: #F7C531;
+  text-align: center;
+  letter-spacing: 0.1em;
+  line-height: 0.9;
+  margin: 0;
+  text-shadow:
+    3px 3px 0 #000,
+    6px 6px 15px rgba(0, 0, 0, 0.7);
+  position: relative;
+  z-index: 2;
+}
+
+.hero-sub {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(1rem, 2vw, 1.5rem);
+  color: #FDF7E6;
+  margin-top: 1.5rem;
+  letter-spacing: 0.15em;
+  text-align: center;
+  position: relative;
+  z-index: 2;
+}
+
+/* Spotlight animation */
+.spotlight {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
+  animation: rotateSpotlight 10s linear infinite;
+  pointer-events: none;
+  z-index: 1;
+}
+
+@keyframes rotateSpotlight {
+  from { transform: rotate(0deg) translateX(60px); }
+  to { transform: rotate(360deg) translateX(60px); }
+}
+
+/* Graffiti text */
+.graffiti {
+  font-family: 'Permanent Marker', cursive;
+  position: absolute;
+  font-size: clamp(1rem, 2vw, 2rem);
+  opacity: 0.25;
+  color: #E6399B;
+  z-index: 1;
+  pointer-events: none;
+}
+
+/* Snapping animation */
+@keyframes snap {
+  0% { transform: rotate(0deg) scale(1); }
+  25% { transform: rotate(2deg) scale(1.03); }
+  50% { transform: rotate(-2deg) scale(1.05); }
+  75% { transform: rotate(2deg) scale(1.03); }
+  100% { transform: rotate(0deg) scale(1); }
+}
+
+.snap-on-hover:hover {
+  animation: snap 0.4s ease-in-out;
+  cursor: pointer;
+}
+
+/* Fade up animation */
+@keyframes fadeUp {
+  0% { opacity: 0; transform: translateY(30px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+.fade-up {
+  animation: fadeUp 1.2s ease-out forwards;
+}
+
+.hero-sub.fade-up {
+  animation-delay: 0.3s;
+  opacity: 0;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .hero {
+    min-height: 60vh;
+    padding: 3rem 1rem;
+  }
+
+  .graffiti {
+    font-size: 1rem;
+  }
+
+  .spotlight {
+    width: 250px;
+    height: 250px;
+  }
+}

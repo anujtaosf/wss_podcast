@@ -1,0 +1,7 @@
+.home {
+  min-height: 100vh;
+  background: #000;
+}
+
+/* Home page specific styles are mostly handled in App.css */
+/* This file can be used for additional Home-specific styling */

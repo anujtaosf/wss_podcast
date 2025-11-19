@@ -1,6 +1,9 @@
 import React from "react";
 import HostCard from "../components/HostCard";
 import "./Background.css";
+import anuProfile from "../assets/anu_profile_ww.JPG";
+import dannyProfile from "../assets/danny_profile.jpg";
+import danielProfile from "../assets/daniel_prof.jpg";
 
 function Background() {
   return (
@@ -14,14 +17,17 @@ function Background() {
           <HostCard
             name="Anuhea Tao"
             bio="*Placeholder*."
+            image={anuProfile}
           />
           <HostCard
             name="Daniel Soden"
             bio="*Placeholder*."
+            image={dannyProfile}
           />
           <HostCard
             name="Daniel Bernstein"
             bio="*Placeholder*."
+            image={danielProfile}
           />
         </div>
       </section>

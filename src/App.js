@@ -13,12 +13,12 @@ function App() {
     <Router basename={basename}>
       <div className="app-container">
         <nav className="nav">
-          <Link to="/wss_podcast" className="nav-link neon-hover">The Podcast</Link>
+          <Link to="/" className="nav-link neon-hover">The Podcast</Link>
           <Link to="/background" className="nav-link neon-hover">Behind the Podcast</Link>
           <Link to="/community" className="nav-link neon-hover">Community</Link>
         </nav>
         <Routes>
-          <Route path="/wss_podcast" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="/background" element={<Background />} />
           <Route path="/community" element={<Community />} />
         </Routes>

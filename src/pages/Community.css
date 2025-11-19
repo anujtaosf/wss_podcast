@@ -1,0 +1,27 @@
+.community-page {
+  min-height: 100vh;
+}
+
+.community-container {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 2rem;
+  background: #111;
+  border-radius: 20px;
+  border: 2px solid #ff2fa2;
+  box-shadow: 0 0 30px rgba(255, 47, 162, 0.6);
+}
+
+.community-sub {
+  text-align: center;
+  color: #d4d4d4;
+  font-size: 1.2rem;
+  font-family: 'Inter', sans-serif;
+  margin-bottom: 2rem;
+}
+
+.community-widget-wrapper {
+  padding: 1rem;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.03);
+}

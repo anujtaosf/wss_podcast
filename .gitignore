@@ -7,10 +7,7 @@
 
 # testing
 /coverage
-/claude
-
-# production
-/build
+/.claude
 
 # misc
 .DS_Store

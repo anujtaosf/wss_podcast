@@ -25,7 +25,7 @@ function Community() {
       <section className="section">
         <div className="community-container">
           <p className="community-sub">
-            Share your thoughts, interpretations, and your favorite moments from West Side Story.
+            Share your thoughts on our podcast! What do you agree with? What would you debate us on?
           </p>
 
           <div className="community-widget-wrapper">

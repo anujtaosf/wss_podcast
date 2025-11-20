@@ -21,12 +21,12 @@ function Background() {
           />
           <HostCard
             name="Daniel Soden"
-            bio="*Placeholder*."
+            bio="The cheekiest little bugger."
             image={dannyProfile}
           />
           <HostCard
             name="Daniel Bernstein"
-            bio="*Placeholder*."
+            bio="The cheeky little bugger."
             image={danielProfile}
           />
         </div>

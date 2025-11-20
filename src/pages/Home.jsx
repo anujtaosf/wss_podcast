@@ -19,7 +19,7 @@ function Home() {
             video2021="https://www.youtube.com/embed/-63IyGtJZMg"
           />
           <EpisodeCardWithVideos
-            title="Episode 2: Something about the trans person"
+            title="Episode 2:"
             description="description"
             audioSrc="/assets/placeholder-audio.mp3"
             video1961="https://www.youtube.com/embed/bxoC5Oyf_ss"

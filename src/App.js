@@ -6,8 +6,8 @@ import Community from "./pages/Community";
 import "./App.css";
 
 function App() {
-  // Use /wss_podcast basename only in production (GitHub Pages), not in development
-  const basename = process.env.NODE_ENV === 'production' ? '/wss_podcast' : '';
+  // Use /wss_podcast basename for both development and production
+  const basename = '/wss_podcast';
 
   return (
     <Router basename={basename}>

@@ -12,7 +12,7 @@ function EpisodeCard({ title, description, audioSrc, thumbnail }) {
         )}
         <div className="episode-text">
           <h3 className="episode-title">{title}</h3>
-          <p className="episode-description">{description}</p>
+          {description && <p className="episode-description">{description}</p>}
           <AudioPlayer src={audioSrc} />
         </div>
       </div>

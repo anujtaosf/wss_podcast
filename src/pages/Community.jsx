@@ -1,20 +1,14 @@
-import React, { useEffect } from "react";
+import React from "react";
+import { DiscussionEmbed } from "disqus-react";
 import "./Community.css";
 
 function Community() {
-  useEffect(() => {
-    // Load the Hyvor Talk script ONCE
-    const script = document.createElement("script");
-    script.src = "https://talk.hyvor.com/embed/embed.js";
-    script.type = "module";
-    script.async = true;
-    document.body.appendChild(script);
-
-    return () => {
-      // Optional cleanup:
-      // document.body.removeChild(script)
-    };
-  }, []);
+  const disqusShortname = "wss-podcast-community";
+  const disqusConfig = {
+    url: "https://anujtaosf.github.io/wss_podcast/community",
+    identifier: "community",
+    title: "West Side Story Deconstructed - Community Discussion"
+  };
 
   return (
     <div className="community-page">
@@ -29,11 +23,10 @@ function Community() {
           </p>
 
           <div className="community-widget-wrapper">
-            {/* Hyvor Talk Web Component */}
-            <hyvor-talk-comments
-              website-id="14538"
-              page-id="community"
-            ></hyvor-talk-comments>
+            <DiscussionEmbed
+              shortname={disqusShortname}
+              config={disqusConfig}
+            />
           </div>
         </div>
       </section>

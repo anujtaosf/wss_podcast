@@ -12,57 +12,49 @@ function Home() {
         <h2 className="section-title">Podcast Episodes</h2>
         <div className="episodes-grid">
           <EpisodeCardWithVideos
-            title="Episode 1: Tony and Maria"
-            description="description"
+            title="Episode 1: Tonight, Tonight: Star-Crossed Love Across the Divide"
             audioSrc={`${process.env.PUBLIC_URL}/assets/Tony_and_Maria.mp3`}
             video1961="https://www.youtube.com/embed/bxoC5Oyf_ss"
             video2021="https://www.youtube.com/embed/YWaVLMejkds"
           />
           <EpisodeCardWithVideos
-            title="Episode 2: Anita Sexual Assault"
-            description="description"
+            title="Episode 2: Full Circle: From Victim to Protector"
             audioSrc={`${process.env.PUBLIC_URL}/assets/Anita_Sexual_Assault.mp3`}
             video1961="https://www.youtube.com/embed/SEZLANv0lDc"
             video2021="https://www.youtube.com/embed/A9tNCtyQx-I"
           />
           <EpisodeCardWithVideos
-            title="Episode 3: Doc"
-            description="description"
+            title="Episode 3: Rita's Return: From Anita to Valentina"
             audioSrc={`${process.env.PUBLIC_URL}/assets/Doc.mp3`}
             video1961="https://www.youtube.com/embed/O-S7Sizo0vc"
             video2021="https://www.youtube.com/embed/-63IyGtJZMg"
           />
           <EpisodeCardWithVideos
-            title="Episode 4: Masculinity in the Opening Scene"
-            description="We break down how masculinity is performed through choreography in the opening sequence."
+            title="Episode 4: Snaps and Swagger: Choreographing Toxic Masculinity"
             audioSrc={`${process.env.PUBLIC_URL}/assets/Masculinity.mp3`}
             video1961="https://www.youtube.com/embed/O-S7Sizo0vc"
             video2021="https://www.youtube.com/embed/-63IyGtJZMg"
           />
           <EpisodeCardWithVideos
-            title="Episode 5: Tony and Riff"
-            description="description"
+            title="Episode 5: Womb to Tomb, Sperm to Worm: The Queer Heart of West Side Story"
             audioSrc={`${process.env.PUBLIC_URL}/assets/Tony_and_Riff.mp3`}
             video1961="https://www.youtube.com/embed/bxoC5Oyf_ss"
             video2021="https://www.youtube.com/embed/YWaVLMejkds"
           />
           <EpisodeCardWithVideos
-            title="Episode 6: Anybodys"
-            description="description"
+            title="Episode 6: Buddy Boy: Anybodys and Trans Visibility Across Decades"
             audioSrc={`${process.env.PUBLIC_URL}/assets/Anybodys.mp3`}
             video1961="https://www.youtube.com/embed/SEZLANv0lDc"
             video2021="https://www.youtube.com/embed/A9tNCtyQx-I"
           />
           <EpisodeCardWithVideos
-            title="Episode 7: Immigrants"
-            description="description"
+            title="Episode 7: PR vs NY: Whose Streets, Whose Dreams?"
             audioSrc={`${process.env.PUBLIC_URL}/assets/Immigrants.mp3`}
             video1961="https://www.youtube.com/embed/O-S7Sizo0vc"
             video2021="https://www.youtube.com/embed/-63IyGtJZMg"
           />
           <EpisodeCardWithVideos
-            title="Episode 8: When You're a Jet"
-            description="description"
+            title="Episode 8: From Your First Cigarette: Brotherhood, Loyalty, and Tribalism"
             audioSrc={`${process.env.PUBLIC_URL}/assets/When_you_a_Jet.mp3`}
             video1961="https://www.youtube.com/embed/bxoC5Oyf_ss"
             video2021="https://www.youtube.com/embed/YWaVLMejkds"

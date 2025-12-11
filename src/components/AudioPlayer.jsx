@@ -10,7 +10,7 @@ function AudioPlayer({ src }) {
         onPlay={() => setPlaying(true)}
         onPause={() => setPlaying(false)}
       >
-        <source src={src} type="audio/mp3" />
+        <source src={src} type="audio/mpeg" />
         Your browser does not support audio.
       </audio>
     </div>

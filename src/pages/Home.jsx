@@ -14,56 +14,56 @@ function Home() {
           <EpisodeCardWithVideos
             title="Episode 1: Tony and Maria"
             description="description"
-            audioSrc="/assets/Tony_and_Maria.m4a"
+            audioSrc={`${process.env.PUBLIC_URL}/assets/Tony_and_Maria.mp3`}
             video1961="https://www.youtube.com/embed/bxoC5Oyf_ss"
             video2021="https://www.youtube.com/embed/YWaVLMejkds"
           />
           <EpisodeCardWithVideos
             title="Episode 2: Anita Sexual Assault"
             description="description"
-            audioSrc="/assets/Anita_Sexual_Assault.m4a"
+            audioSrc={`${process.env.PUBLIC_URL}/assets/Anita_Sexual_Assault.mp3`}
             video1961="https://www.youtube.com/embed/SEZLANv0lDc"
             video2021="https://www.youtube.com/embed/A9tNCtyQx-I"
           />
           <EpisodeCardWithVideos
             title="Episode 3: Doc"
             description="description"
-            audioSrc="/assets/Doc.m4a"
+            audioSrc={`${process.env.PUBLIC_URL}/assets/Doc.mp3`}
             video1961="https://www.youtube.com/embed/O-S7Sizo0vc"
             video2021="https://www.youtube.com/embed/-63IyGtJZMg"
           />
           <EpisodeCardWithVideos
             title="Episode 4: Masculinity in the Opening Scene"
             description="We break down how masculinity is performed through choreography in the opening sequence."
-            audioSrc="/assets/Masculinity.m4a"
+            audioSrc={`${process.env.PUBLIC_URL}/assets/Masculinity.mp3`}
             video1961="https://www.youtube.com/embed/O-S7Sizo0vc"
             video2021="https://www.youtube.com/embed/-63IyGtJZMg"
           />
           <EpisodeCardWithVideos
             title="Episode 5: Tony and Riff"
             description="description"
-            audioSrc="/assets/Tony_and_Riff.m4a"
+            audioSrc={`${process.env.PUBLIC_URL}/assets/Tony_and_Riff.mp3`}
             video1961="https://www.youtube.com/embed/bxoC5Oyf_ss"
             video2021="https://www.youtube.com/embed/YWaVLMejkds"
           />
           <EpisodeCardWithVideos
             title="Episode 6: Anybodys"
             description="description"
-            audioSrc="/assets/Anybodys.m4a"
+            audioSrc={`${process.env.PUBLIC_URL}/assets/Anybodys.mp3`}
             video1961="https://www.youtube.com/embed/SEZLANv0lDc"
             video2021="https://www.youtube.com/embed/A9tNCtyQx-I"
           />
           <EpisodeCardWithVideos
             title="Episode 7: Immigrants"
             description="description"
-            audioSrc="/assets/Immigrants.m4a"
+            audioSrc={`${process.env.PUBLIC_URL}/assets/Immigrants.mp3`}
             video1961="https://www.youtube.com/embed/O-S7Sizo0vc"
             video2021="https://www.youtube.com/embed/-63IyGtJZMg"
           />
           <EpisodeCardWithVideos
             title="Episode 8: When You're a Jet"
             description="description"
-            audioSrc="/assets/When_you_a_Jet.m4a"
+            audioSrc={`${process.env.PUBLIC_URL}/assets/When_you_a_Jet.mp3`}
             video1961="https://www.youtube.com/embed/bxoC5Oyf_ss"
             video2021="https://www.youtube.com/embed/YWaVLMejkds"
           />

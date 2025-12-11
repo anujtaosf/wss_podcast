@@ -87,13 +87,13 @@ body {
   position: relative;
   padding: 5rem 3rem;
   background: #111;
-  clip-path: polygon(0 0, 100% 3%, 100% 100%, 0 97%);
+  clip-path: polygon(0 0, 100% 1%, 100% 100%, 0 99%);
   margin: 3rem 0;
 }
 
 .section-alt {
   background: #0a0a0a;
-  clip-path: polygon(0 3%, 100% 0, 100% 97%, 0 100%);
+  clip-path: polygon(0 1%, 100% 0, 100% 99%, 0 100%);
 }
 
 .section-title {

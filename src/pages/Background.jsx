@@ -21,12 +21,12 @@ function Background() {
           />
           <HostCard
             name="Daniel Soden"
-            bio="The cheekiest little bugger."
+            bio="Danny is a senior studying biology on the pre-med track at Michigan. His musical theatre interest began with playing violin in the pit orchestra for his high school, continuing into college through a lucrative podcasting career beginning in November of 2025. With a deep love for music, co-hosting, and tomfoolery, Danny dives even deeper into the intricacies of musicals through Stories from the West Side"
             image={dannyProfile}
           />
           <HostCard
             name="Daniel Bernstein"
-            bio="The cheeky little bugger."
+            bio="Daniel is a senior at the University of Michigan studying communication and media, with minors in Global Media Studies and Judaic Studies. In his free time, he loves watching baseball, playing board games, and visiting messianic temples. When he grows up, he wants to be emperor of the universe."
             image={danielProfile}
           />
         </div>
